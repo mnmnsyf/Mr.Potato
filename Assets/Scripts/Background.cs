@@ -7,7 +7,7 @@ public class Background : MonoBehaviour
     // Start is called before the first frame update
     public float parallaxFactor = 0.1f;//ÏµÊý
     public float framesParllaxFactor = 3f;
-    public float smoothX = 4;
+    public float smoothX = 10;
     public Transform[] Backgrounds;
 
     private Transform cam;

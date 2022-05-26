@@ -26,6 +26,14 @@ public class CameraFollow : MonoBehaviour
             return false;
     }
 
+    bool MoveY()
+    {
+        if (Mathf.Abs(Hero.position.y - transform.position.y) > YDistance)
+            return true;
+        else
+            return false;
+    }
+
     void FollowHero()
     {
         float newX = transform.position.x;
@@ -33,6 +41,10 @@ public class CameraFollow : MonoBehaviour
         if (MoveX())
             newX = Mathf.Lerp(transform.position.x, Hero.position.x, XSmooth * Time.deltaTime);//从a移动到b
         newX = Mathf.Clamp(newX, MinXandY.x, MaxXandY.x);//存放到最小最大值之间
+
+        if (MoveY())
+            newY = Mathf.Lerp(transform.position.y, Hero.position.y, YSmooth * Time.deltaTime);
+        newY = Mathf.Clamp(newY, MinXandY.y, MaxXandY.y);
 
         transform.position = new Vector3(newX, newY,transform.position.z);
     }
