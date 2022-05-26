@@ -100,18 +100,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -130,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d1d4a5224b45f4eb12df6c5a267a83
-      internalID: 655097124
+      spriteID: 6c781368ef3013046a4bc30e5e52bb7c
+      internalID: -1856513925
       vertices: []
       indices: 
       edges: []
@@ -151,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38cb87e0452117e4cba16935355a85cc
-      internalID: -1069996996
+      spriteID: e39f70b8c38668d45b989145ee53b055
+      internalID: -1979184171
       vertices: []
       indices: 
       edges: []
@@ -172,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb192875ae3cfc84cb3c62d2684d28e7
-      internalID: -1086601626
+      spriteID: c1deae28daa852249b5d4f87aa71d7f2
+      internalID: 204880334
       vertices: []
       indices: 
       edges: []
@@ -189,9 +177,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_enemy_alienSlug_1: -1069996996
-      char_enemy_alienSlug_0: 655097124
-      char_enemy_alienSlug_2: -1086601626
+      char_enemy_alienSlug_1: -1979184171
+      char_enemy_alienSlug_0: -1856513925
+      char_enemy_alienSlug_2: 204880334
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
