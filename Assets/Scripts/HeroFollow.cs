@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HeroFollow : MonoBehaviour
 {
-    private Transform player;		// Reference to the player.
+    private Transform player;		
     public Vector3 offset = new Vector3(0, 0.6f, 0); // The offset at which the Health Bar follows the player.
     void Start()
     {

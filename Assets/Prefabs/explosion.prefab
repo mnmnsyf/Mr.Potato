@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2109645265
-  m_SortingLayer: 4
+  m_SortingLayerID: -369233855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1527581570, guid: 5436940dd14975d4f931a95a96dff766, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -98,9 +98,9 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e8b32366860bcb2458e9be98e48922c1, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -129,8 +129,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9ca38d3abd63b724eb2196e94695e2f2, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: fa36dae4306b0f2478bc895f940598ae, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

@@ -57,10 +57,10 @@ public class PlayerHealth : MonoBehaviour
             s.sortingLayerName = "UI";
         }
 
-        //GetComponent<PlayerCtrl>().enabled = false;
-        playerControl.enabled = false;// ... disable user Player Control script
-        GetComponentInChildren<Gun>().enabled = false;// ... disable the Gun script to stop a dead guy shooting a nonexistant bazooka
-        //anim.SetTrigger("Die");
+        GetComponent<PlayerCtrl>().enabled = false;// ... disable user Player Control script
+        playerControl.enabled = false;
+        GetComponentInChildren<Gun>().enabled = false;//Í£Ö¹Éä»÷
+        anim.SetTrigger("Die");
 
         //Ïú»ÙÑªÌõ
         GameObject go = GameObject.Find("UI_HealthBar");

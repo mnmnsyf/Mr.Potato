@@ -107,10 +107,10 @@ TextureImporter:
       name: char_enemy_alienSlug_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 2
-        width: 459
-        height: 464
+        x: 13
+        y: 11
+        width: 145
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: char_enemy_alienSlug_1
       rect:
         serializedVersion: 2
-        x: 522
-        y: 306
-        width: 99
-        height: 95
+        x: 158
+        y: 0
+        width: 313
+        height: 468
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: char_enemy_alienSlug_2
       rect:
         serializedVersion: 2
-        x: 683
-        y: 326
-        width: 134
-        height: 105
+        x: 521
+        y: 306
+        width: 103
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1deae28daa852249b5d4f87aa71d7f2
+      spriteID: 8d4d33f1657d2b84bbc34cc82d431ff2
       internalID: 204880334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_enemy_alienSlug_3
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 323
+        width: 136
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bfd2259d79c3d479f4040fa443ea82
+      internalID: -959133641
       vertices: []
       indices: 
       edges: []
@@ -178,6 +199,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       char_enemy_alienSlug_1: -1979184171
+      char_enemy_alienSlug_3: -959133641
       char_enemy_alienSlug_0: -1856513925
       char_enemy_alienSlug_2: 204880334
   spritePackingTag: 

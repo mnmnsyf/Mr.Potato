@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Bullet
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Enemies
   - Ground
   - Confiner
   - 
@@ -45,11 +47,11 @@ TagManager:
   - name: background
     uniqueID: 3162575123
     locked: 0
-  - name: foreground
-    uniqueID: 3925733441
-    locked: 0
   - name: player
     uniqueID: 4180605471
+    locked: 0
+  - name: foreground
+    uniqueID: 3925733441
     locked: 0
   - name: Props
     uniqueID: 2185322031
