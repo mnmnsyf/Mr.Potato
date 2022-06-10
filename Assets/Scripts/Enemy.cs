@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float moveSpeed = 2f;            //怪物移动的速度
-    public int HP = 2;
+    public int HP = 1;
     public Sprite deadEnemy;
     public Sprite damagedEnemy;
     public AudioClip[] deathClips;      
@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         m_LayerMask = LayerMask.GetMask("Obstacle");//表示直接获得Obstacle这个Layer对应的LayerMask
+        Destroy(gameObject, 8);
     }
 
     private void FixedUpdate()

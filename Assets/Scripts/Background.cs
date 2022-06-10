@@ -5,8 +5,8 @@ using UnityEngine;
 public class Background : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float parallaxFactor = 0.1f;//系数
-    public float framesParllaxFactor = 3f;
+    public float parallaxFactor = 0.1f;         //系数
+    public float framesParllaxFactor = 3f;      //每一层的视差应该减少多少
     public float smoothX = 10;
     public Transform[] Backgrounds;
 
