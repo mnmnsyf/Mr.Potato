@@ -15,10 +15,10 @@ TagManager:
   - Water
   - UI
   - 
-  - Enemies
+  - Obstacle
   - Ground
   - Confiner
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -47,9 +47,6 @@ TagManager:
   - name: background
     uniqueID: 3162575123
     locked: 0
-  - name: player
-    uniqueID: 4180605471
-    locked: 0
   - name: foreground
     uniqueID: 3925733441
     locked: 0
@@ -58,4 +55,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1631654837
+    locked: 0
+  - name: player
+    uniqueID: 4180605471
     locked: 0

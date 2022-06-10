@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+    public float moveSpeed = 2f;            //怪物移动的速度
     public int HP = 2;
     public Sprite deadEnemy;
     public Sprite damagedEnemy;
@@ -13,34 +13,45 @@ public class Enemy : MonoBehaviour
     public float deathSpinMin = -100f;
     public float deathSpinMax = 100f;
 
+    private Rigidbody2D m_Rigidbody;           //用于设置怪物对象的物理属性
     private SpriteRenderer ren;             //Reference to the sprite renderer.
     private Transform frontCheck;
     private bool dead = false;
-    private Score score;				//引用得分脚本
-
+    private Score score;                //引用得分脚本
+    private LayerMask m_LayerMask;
 
     private void Awake()
     {
         // 设置引用
+        m_Rigidbody = GetComponent<Rigidbody2D>();
         ren = transform.Find("body").GetComponent<SpriteRenderer>();
         frontCheck = transform.Find("frontCheck").transform;
+    }
+
+    private void Start()
+    {
+        m_LayerMask = LayerMask.GetMask("Obstacle");//表示直接获得Obstacle这个Layer对应的LayerMask
     }
 
     private void FixedUpdate()
     {
         // 转身
-        Collider2D[] frontHits = Physics2D.OverlapPointAll(frontCheck.position, 1);
-        foreach (Collider2D c in frontHits)
+        Collider2D[] frontHits = Physics2D.OverlapPointAll(frontCheck.position, m_LayerMask);//此函数用于检测2D场景中某个位置（Vector2 point）处所有的碰撞体
+        if (frontHits.Length > 0)
         {
-            if (c.tag == "Obstacle")
-            {
-                Flip();
-                break;// 转身 & 停止检测其他碰撞体
-            }
+            Flip();
         }
+        // foreach (Collider2D c in frontHits)
+        // {
+        //   if (c.tag == "Obstacle")
+        //  {
+        //      Flip();
+        //       break;// 转身 & 停止检测其他碰撞体
+        //   }
+        // }
 
         // 设置x方向速度
-        GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        m_Rigidbody.velocity = new Vector2(transform.localScale.x * moveSpeed, m_Rigidbody.velocity.y);
 
         // 如果敌人还有一个生命值而且有一个受伤的sprite
         if (HP == 1 && damagedEnemy != null)
@@ -96,11 +107,7 @@ public class Enemy : MonoBehaviour
         // Reduce the number of hit points by one.
         HP--;
     }
-    void Start()
-    {
-        
-    }
-
+ 
     // Update is called once per frame
     void Update()
     {
