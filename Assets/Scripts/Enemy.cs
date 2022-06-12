@@ -26,6 +26,7 @@ public class Enemy : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody2D>();
         ren = transform.Find("body").GetComponent<SpriteRenderer>();
         frontCheck = transform.Find("frontCheck").transform;
+        score = GameObject.Find("Score").GetComponent<Score>();
     }
 
     private void Start()
@@ -82,8 +83,14 @@ public class Enemy : MonoBehaviour
 
         ren.enabled = true;
         ren.sprite = deadEnemy;
-        dead = true;
-        GetComponent<Rigidbody2D>().AddTorque(Random.Range(deathSpinMin, deathSpinMax));// 允许旋转并添加一个扭矩
+
+        //Increase the score by 100 points
+        score.score += 100;
+
+       dead = true;
+
+        // 允许敌人旋转并添加一个扭矩
+        GetComponent<Rigidbody2D>().AddTorque(Random.Range(deathSpinMin, deathSpinMax));
 
         // Find all of the colliders on the gameobject and set them all to be triggers.
         Collider2D[] cols = GetComponents<Collider2D>();
@@ -109,9 +116,4 @@ public class Enemy : MonoBehaviour
         HP--;
     }
  
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

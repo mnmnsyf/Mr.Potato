@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - Bullet
   - Obstacle
+  - ground
+  - ExplosionFX
+  - HealthBar
   layers:
   - Default
   - TransparentFX
@@ -14,12 +17,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Bombs
   - Obstacle
   - Ground
   - Confiner
   - Enemies
-  - 
+  - Player
   - 
   - 
   - 
