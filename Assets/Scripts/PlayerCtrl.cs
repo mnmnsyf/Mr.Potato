@@ -67,9 +67,9 @@ public class PlayerCtrl : MonoBehaviour
         // 通过射线检测是否与地面接触实现跳跃功能
         if (Physics2D.Linecast(transform.position, mGroundCheck.position, 1 << LayerMask.NameToLayer("Ground")))
         {
+            Debug.Log("jump1111.");
             if (Input.GetButtonDown("Jump"))
             {
-                Debug.Log("jump1111.");
                 bJump = true;
                 Debug.Log("jump2222..");
             }

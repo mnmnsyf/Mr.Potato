@@ -26,7 +26,10 @@ public class Enemy : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody2D>();
         ren = transform.Find("body").GetComponent<SpriteRenderer>();
         frontCheck = transform.Find("frontCheck").transform;
+<<<<<<< HEAD
         //score = GameObject.Find("Score").GetComponent<Score>();
+=======
+>>>>>>> parent of bc44874 (é“å…·ï¼ˆå¼¹è¯ç®±ã€åŒ»ç–—åŒ…ï¼‰ç”Ÿæˆã€æ‹¾å–ã€ä½¿ç”¨ï¼ˆå®‰æ”¾ç‚¸å¼¹ï¼‰åŠç›¸å…³éŸ³ç‰¹æ•ˆ)
     }
 
     private void Start()
@@ -83,6 +86,7 @@ public class Enemy : MonoBehaviour
 
         ren.enabled = true;
         ren.sprite = deadEnemy;
+<<<<<<< HEAD
 
         //Increase the score by 100 points
         //score.score += 100;
@@ -91,6 +95,10 @@ public class Enemy : MonoBehaviour
 
         // ÔÊĞíµĞÈËĞı×ª²¢Ìí¼ÓÒ»¸öÅ¤¾Ø
         GetComponent<Rigidbody2D>().AddTorque(Random.Range(deathSpinMin, deathSpinMax));
+=======
+        dead = true;
+        GetComponent<Rigidbody2D>().AddTorque(Random.Range(deathSpinMin, deathSpinMax));// ÔÊĞíĞı×ª²¢Ìí¼ÓÒ»¸öÅ¤¾Ø
+>>>>>>> parent of bc44874 (é“å…·ï¼ˆå¼¹è¯ç®±ã€åŒ»ç–—åŒ…ï¼‰ç”Ÿæˆã€æ‹¾å–ã€ä½¿ç”¨ï¼ˆå®‰æ”¾ç‚¸å¼¹ï¼‰åŠç›¸å…³éŸ³ç‰¹æ•ˆ)
 
         // Find all of the colliders on the gameobject and set them all to be triggers.
         Collider2D[] cols = GetComponents<Collider2D>();
@@ -116,4 +124,9 @@ public class Enemy : MonoBehaviour
         HP--;
     }
  
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

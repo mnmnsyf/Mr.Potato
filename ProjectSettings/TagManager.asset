@@ -7,9 +7,6 @@ TagManager:
   - Enemy
   - Bullet
   - Obstacle
-  - ground
-  - ExplosionFX
-  - HealthBar
   layers:
   - Default
   - TransparentFX
@@ -17,9 +14,16 @@ TagManager:
   - Confiner
   - Water
   - UI
-  - Bombs
+  - 
   - Obstacle
+<<<<<<< HEAD
   - Player
+=======
+  - Ground
+  - Confiner
+  - Enemies
+  - 
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效)
   - 
   - Enemies
   - 

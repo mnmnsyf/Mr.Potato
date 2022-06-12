@@ -10,7 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896307471149667}
   - component: {fileID: 1853896307471149666}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +98,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896307860956470}
   - component: {fileID: 1853896307860956465}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +186,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308011109701}
   - component: {fileID: 1853896308011109700}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +274,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308174422189}
   - component: {fileID: 1853896308174422188}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: rightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +362,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308199481825}
   - component: {fileID: 1853896308199481824}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: leftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +450,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308439196200}
   - component: {fileID: 1853896308439196203}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: tache
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +538,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308449622344}
   - component: {fileID: 1853896308449622347}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: Bazooka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,8 +632,12 @@ GameObject:
   - component: {fileID: 1853896308021383238}
   - component: {fileID: 5611665376995611744}
   - component: {fileID: 2567738603396432074}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   - component: {fileID: 324351049686393434}
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: Hero
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -621,7 +653,7 @@ Transform:
   m_GameObject: {fileID: 1853896308662625688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.88, y: 2.03, z: 0}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1853896309030551530}
@@ -655,7 +687,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 6200000, guid: ae9339afc8c6abd44b2ce08eb7010676, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -734,8 +766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99bcba9b1e7c964c8c06ab0fae94778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveForce: 150
-  MaxSpeed: 2
+  MoveForce: 300
+  MaxSpeed: 3
   HeroBody: {fileID: 1853896308662625684}
   bFaceRight: 1
   bJump: 0
@@ -872,6 +904,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
 --- !u!114 &324351049686393434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,6 +922,8 @@ MonoBehaviour:
   bombsAway: {fileID: 8300000, guid: 42425c79e24808c45b6de6c20501e9a2, type: 3}
   bomb: {fileID: 6936181003845136095, guid: 910a6091bf9a0e2468fdac43718f43fe, type: 3}
   bombText: {fileID: 0}
+=======
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
 --- !u!1 &1853896308705786680
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +934,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896308705786683}
   - component: {fileID: 1853896308705786682}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,7 +1021,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853896308968786252}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -1014,7 +1057,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896309030551530}
   - component: {fileID: 1853896309030551525}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1145,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1853896309309989871}
   - component: {fileID: 1853896309309989870}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1233,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3845142795343183015}
   - component: {fileID: 2567738603308321069}
+<<<<<<< HEAD:Assets/Prefabs/Characters/Hero.prefab
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> parent of bc44874 (道具（弹药箱、医疗包）生成、拾取、使用（安放炸弹）及相关音特效):Assets/Prefabs/Hero.prefab
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
