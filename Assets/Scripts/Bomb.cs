@@ -8,7 +8,7 @@ public class Bomb : MonoBehaviour
     public float bombForce = 100f;          //从爆炸中炸出敌人的力量
     public AudioClip boom;                  // 爆炸的音频
     public AudioClip fuse;                  // 保险丝音频
-    public float fuseTime = 1.5f;
+    public float fuseTime = 1.0f;
     public GameObject explosion;            // 预设体爆炸效果
 
 
@@ -35,7 +35,7 @@ public class Bomb : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(fuse, transform.position);
 
-        // 等待 2 s.
+        // 等待 几秒.
         yield return new WaitForSeconds(fuseTime);
 
         Explode();
@@ -47,7 +47,7 @@ public class Bomb : MonoBehaviour
 		// 玩家现在可以自由放置炸弹
 		layBombs.bombLaid = false;
 
-		// 开始交付一个新的拾取
+		// 开始一个新的拾取
 		pickupSpawner.StartCoroutine(pickupSpawner.DeliverPickup());
 
 		//在bomradius的enemies中找到所有的碰撞器

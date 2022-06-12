@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345089734982235771}
   - component: {fileID: 345089734982235770}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: parachute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 345089735563800644}
   - component: {fileID: 345089735563800645}
   - component: {fileID: 345089735563800649}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 345089735706652348}
   - component: {fileID: 345089735706652351}
   - component: {fileID: 345089735706652350}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: bombCrate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     private SpriteRenderer ren;             //Reference to the sprite renderer.
     private Transform frontCheck;
     private bool dead = false;
-    private Score score;                //引用得分脚本
+    //private Score score;                //引用得分脚本
     private LayerMask m_LayerMask;
 
     private void Awake()
@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody2D>();
         ren = transform.Find("body").GetComponent<SpriteRenderer>();
         frontCheck = transform.Find("frontCheck").transform;
-        score = GameObject.Find("Score").GetComponent<Score>();
+        //score = GameObject.Find("Score").GetComponent<Score>();
     }
 
     private void Start()
@@ -85,7 +85,7 @@ public class Enemy : MonoBehaviour
         ren.sprite = deadEnemy;
 
         //Increase the score by 100 points
-        score.score += 100;
+        //score.score += 100;
 
        dead = true;
 

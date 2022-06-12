@@ -14,17 +14,17 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Confiner
   - Water
   - UI
   - Bombs
   - Obstacle
-  - Ground
-  - Confiner
-  - Enemies
   - Player
   - 
+  - Enemies
   - 
+  - Pickups
+  - Ground
   - 
   - 
   - 

@@ -9,7 +9,7 @@ public class LayBombs : MonoBehaviour
     public int bombCount = 0;           // 玩家拥有多少炸弹
     public AudioClip bombsAway;         // 玩家放置炸弹时的声音
     public GameObject bomb;				// 炸弹的预设体
-
+    public Text bombText;
     private Text bombHUD;			// 显示玩家是否有炸弹
 
     void Awake()
@@ -38,5 +38,6 @@ public class LayBombs : MonoBehaviour
 
         // 如果玩家有炸弹，炸弹标题显示应该被启用，否则应该被禁用
         //bombHUD.enabled = bombCount > 0;
+        bombText.text = bombCount.ToString();
     }
 }

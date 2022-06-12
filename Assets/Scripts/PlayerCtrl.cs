@@ -14,7 +14,6 @@ public class PlayerCtrl : MonoBehaviour
     [HideInInspector]
     public bool bJump = false;
     public float JumpForce = 500;
-
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
     public AudioClip[] taunts;              // Array of clips for when the player taunts.
@@ -70,7 +69,9 @@ public class PlayerCtrl : MonoBehaviour
         {
             if (Input.GetButtonDown("Jump"))
             {
+                Debug.Log("jump1111.");
                 bJump = true;
+                Debug.Log("jump2222..");
             }
         }
 

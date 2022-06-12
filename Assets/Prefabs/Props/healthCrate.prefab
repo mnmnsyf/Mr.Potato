@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8268295114842894483}
   - component: {fileID: 8268295114842894482}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: parachute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 8268295115738753675}
   - component: {fileID: 8268295115738753672}
   - component: {fileID: 6332791886809364632}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 8268295115794646590}
   - component: {fileID: 8268295115794646585}
   - component: {fileID: 8268295115794646584}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: healthCrate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
